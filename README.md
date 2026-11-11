@@ -18,7 +18,7 @@
 
 The **Dart POS System** is a console-based application designed to handle basic point-of-sale operations.
 
-The main purpose of this project is to develop a system that manages products, customers, sales transactions, and business-related information while applying Object-Oriented Programming (OOP) concepts in Dart.
+The project focuses on managing products, customers, sales transactions, and business-related information while applying Object-Oriented Programming (OOP) concepts in Dart.
 
 It focuses on writing structured, readable, and reusable code.
 
@@ -28,8 +28,8 @@ It focuses on writing structured, readable, and reusable code.
 |---|---|
 | 📦 Product Management | Manage product details and information. |
 | 👤 Customer Management | Handle customer information and interactions. |
-| 🧾 Sales Transactions | Process customer purchases and transactions. |
-| 📊 Sales Analysis | Work with sales and transaction data. |
+| 🧾 Sales Transactions | Manage customer purchases and transactions. |
+| 📊 Reports | View business-related information and reports. |
 | 💻 Console Interface | Perform operations through a simple terminal interface. |
 
 ## 🛠️ Technology Stack
@@ -40,8 +40,6 @@ It focuses on writing structured, readable, and reusable code.
 
 ## 🧠 Concepts Implemented
 
-This project provides practical experience with:
-
 - Classes and Objects
 - Constructors
 - Encapsulation
@@ -50,6 +48,23 @@ This project provides practical experience with:
 - Conditional Statements
 - Loops
 - Object-Oriented Program Design
+
+## 📸 Screenshots
+
+### Main Menu
+![Main Menu](screenshots/Main%20Menu.png)
+
+### Add Product
+![Add Product](screenshots/add%20product.png)
+
+### Update Product
+![Update Product](screenshots/update%20product.png)
+
+### Delete Product
+![Delete Product](screenshots/delete%20product.png)
+
+### Exit Screen
+![Exit Screen](screenshots/exit%20screen.png)
 
 ## 📂 Project Structure
 
@@ -60,6 +75,13 @@ dart_pos_system/
 │   └── main.dart
 │
 ├── test/
+│
+├── screenshots/
+│   ├── Main Menu.png
+│   ├── add product.png
+│   ├── update product.png
+│   ├── delete product.png
+│   └── exit screen.png
 │
 ├── pubspec.yaml
 ├── pubspec.lock
@@ -93,12 +115,10 @@ cd Dart-POS-System
 **3. Get project dependencies**
 
 ```bash
-flutter pub get
+dart pub get
 ```
 
 **4. Run the application**
-
-If the main entry point is `lib/main.dart`:
 
 ```bash
 dart run lib/main.dart
